@@ -4,5 +4,6 @@ def oxford_comma(array)
   else 
     array.pop = last_element
     array.join(", ")
+    array
   end
 end
