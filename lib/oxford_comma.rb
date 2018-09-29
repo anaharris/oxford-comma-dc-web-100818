@@ -3,5 +3,6 @@ def oxford_comma(array)
     return array.join
   else 
     array.last = last_element
+    
   end
 end
