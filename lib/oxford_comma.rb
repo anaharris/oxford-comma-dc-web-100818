@@ -3,7 +3,6 @@ def oxford_comma(array)
     return array.join
   else 
     last_element = array.pop
-    array.join(", ")
-    
+    list = array.join(", ")
   end
 end
